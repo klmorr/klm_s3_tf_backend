@@ -112,7 +112,7 @@ def create_backend_config(file_name, region, bucket_name, table_name):
     bucket          = \"{bucket_name}\"
     dynamodb_table  = \"{table_name}\"
     region          = \"{region}\"
-    key             = "terraform-state/terraform.tfstate"
+    key             = "state/terraform.tfstate"
     encrypt         = \"true\"
     """
     with open(file_name, "w") as file:
