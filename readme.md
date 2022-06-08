@@ -26,15 +26,15 @@ navigate to the src directory
 cd src
 ```
 
-run init.py
+run invoke_tf.py
 
 ```bash
-python init.py --action apply --client test --profile default --region us-east-1
+python invoke_tf.py --action apply --client test --profile default --region us-east-1
 ```
 
-### init.py
+### invoke_tf.py
 
-Init.py is a python script with logic to manage executing the terraform to create the backend infrastructure and manage its state.
+invoke_tf.py is a python script with logic to manage executing terraform to create the backend infrastructure and manage its state. Imports class from python files in the py_modules directory
 
 arguments
 
